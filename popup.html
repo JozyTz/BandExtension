@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nickname Extension</title>
+  <style>
+    body {
+      width: 300px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .deleteButton {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Manage Nicknames:</h2>
+  <ul id="nicknameList"></ul>
+  <input type="text" id="originalUsername" placeholder="Original Username">
+  <input type="text" id="customNickname" placeholder="Custom Nickname">
+  <button id="addNicknameButton">Add Nickname</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
