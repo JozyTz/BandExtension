@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Assclipz",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://band.us/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
